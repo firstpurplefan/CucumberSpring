@@ -11,7 +11,7 @@ import com.revit.bddtesting.models.SelectFlight;
  * page.
  */
 @Repository("selectFlightBean")
-public class SelectFlightImpl extends SuperPageBean implements SelectFlight {
+public class SelectFlightBean extends SuperPageBean implements SelectFlight {
 	@FindBy(name = "reserveFlights")
 	private WebElement selectFlightsButton;
 

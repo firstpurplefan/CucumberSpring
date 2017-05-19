@@ -10,7 +10,7 @@ import com.revit.bddtesting.models.LoginPage;
  * HomePage class. This is a page model including the web elements on this page.
  */
 @Repository("loginPageBean")
-public class LoginPageImpl extends SuperPageBean implements LoginPage{
+public class LoginPageBean extends SuperPageBean implements LoginPage{
 	@FindBy(name = "userName")
 	private WebElement usernameBox;
 

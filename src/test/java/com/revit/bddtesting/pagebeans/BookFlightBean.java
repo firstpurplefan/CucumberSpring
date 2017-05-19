@@ -11,7 +11,7 @@ import com.revit.bddtesting.models.BookFlight;
  * page.
  */
 @Repository("bookFlightBean")
-public class BookFlightImpl extends SuperPageBean implements BookFlight {
+public class BookFlightBean extends SuperPageBean implements BookFlight {
 
 	@FindBy(name = "passFirst0")
 	private WebElement firstNameBox;

@@ -12,7 +12,7 @@ import com.revit.bddtesting.models.FindFlight;
  * page.
  */
 @Repository("findFlightBean")
-public class FindFlightImpl extends SuperPageBean implements FindFlight {
+public class FindFlightBean extends SuperPageBean implements FindFlight {
 	@FindBy(xpath = "//input[@value='oneway']")
 	private WebElement onewayRadio;
 
